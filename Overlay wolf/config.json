@@ -1,0 +1,1193 @@
+{
+  "schemaVersion": 1,
+  "nodeType": "RootNode",
+  "scenes": {
+    "schemaVersion": 2,
+    "nodeType": "ScenesNode",
+    "items": [
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "dc104c87-9f98-462b-934c-1651a563f8a5",
+              "sceneNodeType": "item",
+              "name": "wolves-overlay.webm",
+              "x": 0,
+              "y": -0.13871678369819632,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": true,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "1.webm"
+              }
+            },
+            {
+              "id": "4983d63c-7387-426b-a49f-192af38df801",
+              "sceneNodeType": "item",
+              "name": "Last Sub",
+              "x": 0.17972878293269764,
+              "y": 0.015972277787331794,
+              "scaleX": 0.00035149895421798783,
+              "scaleY": 0.0006248870297208672,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_youtube_sponsor",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top",
+                    "vertical": false
+                  }
+                }
+              }
+            },
+            {
+              "id": "2c0d01f2-68c4-45a9-9ef7-83966f2e8289",
+              "sceneNodeType": "item",
+              "name": "Last Follower",
+              "x": 0.391504057803111,
+              "y": 0.020446096654275093,
+              "scaleX": 0.00034877942652577804,
+              "scaleY": 0.0006200523138236054,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_youtube_subscriber",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "01946877-57a1-4cb7-a8f0-bb5e0e6a5963",
+              "sceneNodeType": "item",
+              "name": "Last Donation",
+              "x": 0.5513173694789857,
+              "y": 0.016720823760242986,
+              "scaleX": 0.0003599739517607858,
+              "scaleY": 0.0006399536920191747,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "ff9ca650-d461-455a-a893-1ef7d123b0bd",
+              "sceneNodeType": "item",
+              "name": "Last Cheer",
+              "x": 0.7620091933783567,
+              "y": 0.018579559819722535,
+              "scaleX": 0.0003599739517607858,
+              "scaleY": 0.0006399536920191747,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_cheerer",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "890a4161-536d-4143-b698-25e222873709",
+              "sceneNodeType": "folder",
+              "name": "Streamlabels",
+              "childrenIds": [
+                "ff9ca650-d461-455a-a893-1ef7d123b0bd",
+                "01946877-57a1-4cb7-a8f0-bb5e0e6a5963",
+                "2c0d01f2-68c4-45a9-9ef7-83966f2e8289",
+                "4983d63c-7387-426b-a49f-192af38df801"
+              ]
+            },
+            {
+              "id": "308b7ee9-3db8-45f1-96b7-28ae26105c9f",
+              "sceneNodeType": "folder",
+              "name": "Overlay 1",
+              "childrenIds": [
+                "890a4161-536d-4143-b698-25e222873709",
+                "dc104c87-9f98-462b-934c-1651a563f8a5"
+              ]
+            },
+            {
+              "id": "ce0748a1-e583-4c5e-958c-8e32b95222d4",
+              "sceneNodeType": "item",
+              "name": "wolves-greenscreen+info.webm",
+              "x": 0.07023060796645701,
+              "y": 0.13568773234200748,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": true,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "2.webm"
+              }
+            },
+            {
+              "id": "013f706d-523e-4793-b82c-887c1413efd1",
+              "sceneNodeType": "item",
+              "name": "Last Sub",
+              "x": 0.18653233602537683,
+              "y": 0.40800293113663916,
+              "scaleX": 0.000300000446261,
+              "scaleY": 0.0005333341266862223,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_youtube_sponsor",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top",
+                    "vertical": false
+                  }
+                }
+              }
+            },
+            {
+              "id": "37d6686b-2e26-40b8-b887-e5dde8ef3c3b",
+              "sceneNodeType": "item",
+              "name": "Last Donation",
+              "x": 0.2979649247321316,
+              "y": 0.4089141323104289,
+              "scaleX": 0.000307233762361632,
+              "scaleY": 0.0005461933553095681,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "48f6ee1b-c5f1-441e-8d06-2dd7e06ecb04",
+              "sceneNodeType": "folder",
+              "name": "Streamlabels",
+              "childrenIds": [
+                "37d6686b-2e26-40b8-b887-e5dde8ef3c3b",
+                "013f706d-523e-4793-b82c-887c1413efd1"
+              ]
+            },
+            {
+              "id": "c5951a53-9e8f-451a-88c6-71b2d8fd7030",
+              "sceneNodeType": "folder",
+              "name": "Greenscreen 2",
+              "childrenIds": [
+                "48f6ee1b-c5f1-441e-8d06-2dd7e06ecb04",
+                "ce0748a1-e583-4c5e-958c-8e32b95222d4"
+              ]
+            },
+            {
+              "id": "b4dd4f64-0add-4dd2-a144-6ac756a17e1b",
+              "sceneNodeType": "item",
+              "name": "wolves-greenscreen.webm",
+              "x": 0.07756813417190772,
+              "y": 0.44444444444444436,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": true,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "3.webm"
+              }
+            },
+            {
+              "id": "68ea06a2-2c3f-4692-a38c-afa07a3f4695",
+              "sceneNodeType": "folder",
+              "name": "Greenscreen",
+              "childrenIds": [
+                "b4dd4f64-0add-4dd2-a144-6ac756a17e1b"
+              ]
+            },
+            {
+              "id": "ee728363-47b2-4e35-8da4-736da87c25d9",
+              "sceneNodeType": "item",
+              "name": "wolves-webcam+info.webm",
+              "x": 0.5115303983228511,
+              "y": 0.4444444444444444,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": true,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "4.webm"
+              }
+            },
+            {
+              "id": "a6d881da-45a0-492d-b957-7bf9dfd4d84c",
+              "sceneNodeType": "item",
+              "name": "Last Sub",
+              "x": 0.6299285624404712,
+              "y": 0.837370960876416,
+              "scaleX": 0.000300000446261,
+              "scaleY": 0.0005333341266862223,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_youtube_sponsor",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top",
+                    "vertical": false
+                  }
+                }
+              }
+            },
+            {
+              "id": "633e1744-a796-49d8-8fe3-678651146671",
+              "sceneNodeType": "item",
+              "name": "Last Donation",
+              "x": 0.7413611511472261,
+              "y": 0.8382821620502058,
+              "scaleX": 0.000307233762361632,
+              "scaleY": 0.0005461933553095681,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": -1,
+                    "custom_font": "Oswald-Medium.ttf",
+                    "extents_cx": 100,
+                    "extents_cy": 100,
+                    "extents_wrap": true,
+                    "file": "",
+                    "font": {
+                      "face": "Oswald Medium",
+                      "flags": 0,
+                      "size": 36
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": true,
+                    "text": "",
+                    "valign": "top"
+                  }
+                }
+              }
+            },
+            {
+              "id": "a2d8d578-d07c-4912-a1b5-b5ead7de6520",
+              "sceneNodeType": "folder",
+              "name": "Streamlabels",
+              "childrenIds": [
+                "633e1744-a796-49d8-8fe3-678651146671",
+                "a6d881da-45a0-492d-b957-7bf9dfd4d84c"
+              ]
+            },
+            {
+              "id": "d5525752-f47c-495c-bcb6-eba99d6cf23c",
+              "sceneNodeType": "folder",
+              "name": "Webcam 2",
+              "childrenIds": [
+                "a2d8d578-d07c-4912-a1b5-b5ead7de6520",
+                "ee728363-47b2-4e35-8da4-736da87c25d9"
+              ]
+            },
+            {
+              "id": "5935bef2-fdc8-4068-afe8-f1936a9d89d5",
+              "sceneNodeType": "item",
+              "name": "wolves-webcam.webm",
+              "x": 0.5083857442348009,
+              "y": 0.05313705918875797,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": true,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "5.webm"
+              }
+            },
+            {
+              "id": "02e9b991-d709-42a6-beaf-b0c21643a04c",
+              "sceneNodeType": "folder",
+              "name": "Webcam",
+              "childrenIds": [
+                "5935bef2-fdc8-4068-afe8-f1936a9d89d5"
+              ]
+            }
+          ]
+        },
+        "name": "Live Scene",
+        "sceneId": "scene_f0cb9d71-000c-4ab1-a342-a59334e03640"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "ceda3280-2c4c-4166-97d2-87bc43847387",
+              "sceneNodeType": "item",
+              "name": "wolves-intermission-starting.webm",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": false,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "6.webm"
+              }
+            },
+            {
+              "id": "572f92d4-5165-4bcc-8146-eac86d20ee43",
+              "sceneNodeType": "item",
+              "name": "Edit Social Media",
+              "x": 0.2502713820829404,
+              "y": 0.8518921661087362,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 920,
+                "bottom": 108,
+                "left": 481,
+                "right": 584
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_26ab2a75-f2d6-4621-b6f9-3dca1eee0677"
+              }
+            }
+          ]
+        },
+        "name": "Starting",
+        "sceneId": "scene_fc0b82e6-67b3-48d9-b541-45bede96d927"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "0aeebd4e-fc23-48b8-87fd-3d00921f844d",
+              "sceneNodeType": "item",
+              "name": "wolves-intermission-pause.webm",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": false,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "7.webm"
+              }
+            },
+            {
+              "id": "62ed726e-4ccb-46ac-8ac5-0aac1db509ca",
+              "sceneNodeType": "item",
+              "name": "Edit Social Media",
+              "x": 0.2502713820829404,
+              "y": 0.8518921661087362,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 920,
+                "bottom": 108,
+                "left": 481,
+                "right": 584
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_26ab2a75-f2d6-4621-b6f9-3dca1eee0677"
+              }
+            }
+          ]
+        },
+        "name": "Pause ",
+        "sceneId": "scene_0d6ea585-50df-4754-92f1-26beea80bb9e"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "a10587cb-b1f0-411f-91c5-28455629c4ad",
+              "sceneNodeType": "item",
+              "name": "wolves-intermission-ending.webm",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": false,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "8.webm"
+              }
+            },
+            {
+              "id": "562cda9b-1b6b-4e2c-a481-c3d8f75c0be8",
+              "sceneNodeType": "item",
+              "name": "Edit Social Media",
+              "x": 0.2502713820829404,
+              "y": 0.8518921661087362,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 920,
+                "bottom": 108,
+                "left": 481,
+                "right": 584
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_26ab2a75-f2d6-4621-b6f9-3dca1eee0677"
+              }
+            }
+          ]
+        },
+        "name": "End",
+        "sceneId": "scene_6f3af542-62b1-4e45-a5bf-0d339bbcbfe5"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "4649d04c-2376-4eb3-b2da-919de2409568",
+              "sceneNodeType": "item",
+              "name": "wolves-talking-greenscreen.webm",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": false,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "9.webm"
+              }
+            },
+            {
+              "id": "e88ce1ef-d7e4-4083-a0d3-4b4f4f77c5f8",
+              "sceneNodeType": "item",
+              "name": "wolves-talking-webcam.webm",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "VideoNode",
+                "settings": {
+                  "buffering_mb": 2,
+                  "caching": false,
+                  "clear_on_media_end": true,
+                  "hw_decode": false,
+                  "is_local_file": true,
+                  "local_file": "",
+                  "looping": true,
+                  "restart_on_activate": true,
+                  "speed_percent": 100
+                },
+                "filename": "10.webm"
+              }
+            },
+            {
+              "id": "0d1ca38a-2696-4289-9bda-6354d9a7fb56",
+              "sceneNodeType": "item",
+              "name": "Chat Box",
+              "x": 0.6890604803814963,
+              "y": 0.5109679215564153,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 300,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "width": 500
+                },
+                "type": 6
+              }
+            },
+            {
+              "id": "3bd839ac-e11b-440e-bfa4-f6a0518b5e73",
+              "sceneNodeType": "item",
+              "name": "Edit Social Media",
+              "x": 0.24607850996554007,
+              "y": 0.9243828724284388,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 920,
+                "bottom": 108,
+                "left": 481,
+                "right": 584
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_26ab2a75-f2d6-4621-b6f9-3dca1eee0677"
+              }
+            }
+          ]
+        },
+        "name": "Just Chatting",
+        "sceneId": "scene_c8463652-3de2-436f-a258-845d36fbbefd"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "5c9838f5-bcb5-4b61-9cf1-0410dba2c534",
+              "sceneNodeType": "item",
+              "name": "Instagram",
+              "x": 0.6031320331055151,
+              "y": 0.856325500837527,
+              "scaleX": 0.00045107033281850705,
+              "scaleY": 0.0008019028138995681,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Oswald-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Oswald Medium",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "Streamername",
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "34329d57-6e62-49e5-b75e-ac9654a19b8f",
+              "sceneNodeType": "item",
+              "name": "Twitter",
+              "x": 0.2502713820829404,
+              "y": 0.8518921661087362,
+              "scaleX": 0.00045107033281850705,
+              "scaleY": 0.0008019028138995681,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Oswald-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Oswald Medium",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "Streamername",
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "2f812d08-f01a-4cdd-9d94-9a7cb667ac21",
+              "sceneNodeType": "item",
+              "name": "youtube",
+              "x": 0.4230157514520664,
+              "y": 0.8542377689398756,
+              "scaleX": 0.00045107033281850705,
+              "scaleY": 0.0008019028138995681,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Oswald-Medium.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Oswald Medium",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "Streamername",
+                  "valign": "top"
+                }
+              }
+            }
+          ]
+        },
+        "name": "Edit Social Media",
+        "sceneId": "scene_26ab2a75-f2d6-4621-b6f9-3dca1eee0677"
+      }
+    ]
+  },
+  "transition": {
+    "schemaVersion": 1,
+    "nodeType": "TransitionNode",
+    "type": "obs_stinger_transition",
+    "settings": {
+      "audio_fade_style": 0,
+      "audio_monitoring": 2,
+      "path": "11.webm",
+      "tp_type": 0,
+      "transition_point": 2000
+    },
+    "duration": 300
+  }
+}
